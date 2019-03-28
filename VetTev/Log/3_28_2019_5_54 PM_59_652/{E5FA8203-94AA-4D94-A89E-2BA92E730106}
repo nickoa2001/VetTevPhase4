@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 9">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7465900926"/>
+			<Prp name="line no" type="I" value="92"/>
+			<Prp name="message" type="S" value="Starting step - Step 2: Create a new customer by filling in all the details"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7467340856"/>
+			<Prp name="line no" type="I" value="92"/>
+			<Prp name="message" type="S" value="Starting step - Step 4: Close the application and store results"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466721296"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="message" type="S" value="[CommonTextControl: TextBox_Type] Typing Cluj-Napoca in the text box WinFormsObject(&quot;customers_cityTextBox&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="976"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="click point y" type="I" value="100"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1518"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="89"/>
+					<Prp name="datetime" type="D" value="43552.6633733681"/>
+					<Prp name="click point x" type="I" value="29"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel1&quot;).WinFormsObject(&quot;panel5&quot;).WinFormsObject(&quot;dataGridView_main&quot;)"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="line #" type="I" value="125"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7467085301"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="message" type="S" value="The grid column header 'Id' was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel1&quot;).WinFormsObject(&quot;panel5&quot;).WinFormsObject(&quot;dataGridView_main&quot;)"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="200"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1906"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="180"/>
+					<Prp name="datetime" type="D" value="43552.6633166204"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_surnameTextBox&quot;)"/>
+					<Prp name="object left" type="I" value="1535"/>
+					<Prp name="line #" type="I" value="32"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466508449"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'[Del]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_surnameTextBox&quot;)"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="45"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="click point y" type="I" value="35"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="82"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="25"/>
+					<Prp name="datetime" type="D" value="43552.6632236574"/>
+					<Prp name="click point x" type="I" value="44"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;menuStrip_main&quot;).MenuBar(&quot;menuStrip1&quot;).MenuItem(&quot;Customers&quot;)"/>
+					<Prp name="object left" type="I" value="6"/>
+					<Prp name="line #" type="I" value="7"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7465584954"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (38, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;menuStrip_main&quot;).MenuBar(&quot;menuStrip1&quot;).MenuItem(&quot;Customers&quot;)"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="161"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1906"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="141"/>
+					<Prp name="datetime" type="D" value="43552.663306412"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_nameTextBox&quot;)"/>
+					<Prp name="object left" type="I" value="1535"/>
+					<Prp name="line #" type="I" value="32"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466409259"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'[Del]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_nameTextBox&quot;)"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.746545"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="message" type="S" value="[CommonApplication_StartApplication] Starting the application: vettev"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7465446759"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="message" type="S" value="Closing the application"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466394097"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="message" type="S" value="[CommonTextControl: TextBox_Type] Typing Agent56 in the text box WinFormsObject(&quot;customers_nameTextBox&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 27">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466981597"/>
+			<Prp name="line no" type="I" value="92"/>
+			<Prp name="message" type="S" value="Starting step - Step 3: Delete last created customer entry"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="281"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1635"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="261"/>
+					<Prp name="datetime" type="D" value="43552.6633407755"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_cityTextBox&quot;)"/>
+					<Prp name="object left" type="I" value="1535"/>
+					<Prp name="line #" type="I" value="33"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466769907"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'Cluj-Napoca' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_cityTextBox&quot;)"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="323"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1907"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="303"/>
+					<Prp name="datetime" type="D" value="43552.663328044"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_emailTextBox&quot;)"/>
+					<Prp name="object left" type="I" value="1807"/>
+					<Prp name="line #" type="I" value="33"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466665046"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'agent.bond56@gmail.com' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_emailTextBox&quot;)"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 32">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="1005"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="click point y" type="I" value="993"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="251"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="982"/>
+					<Prp name="datetime" type="D" value="43552.6633837616"/>
+					<Prp name="click point x" type="I" value="213"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel1&quot;).WinFormsObject(&quot;panel4&quot;).WinFormsObject(&quot;button_Delete&quot;)"/>
+					<Prp name="object left" type="I" value="176"/>
+					<Prp name="line #" type="I" value="146"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7467180324"/>
+			<Prp name="line no" type="I" value="146"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (37, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel1&quot;).WinFormsObject(&quot;panel4&quot;).WinFormsObject(&quot;button_Delete&quot;)"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="200"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1906"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="180"/>
+					<Prp name="datetime" type="D" value="43552.6633184143"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_surnameTextBox&quot;)"/>
+					<Prp name="object left" type="I" value="1535"/>
+					<Prp name="line #" type="I" value="33"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.746653669"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'Bond56' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_surnameTextBox&quot;)"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="976"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="click point y" type="I" value="100"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1518"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="89"/>
+					<Prp name="datetime" type="D" value="43552.6633701273"/>
+					<Prp name="click point x" type="I" value="174"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel1&quot;).WinFormsObject(&quot;panel5&quot;).WinFormsObject(&quot;dataGridView_main&quot;)"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="line #" type="I" value="124"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7467055093"/>
+			<Prp name="line no" type="I" value="124"/>
+			<Prp name="message" type="S" value="The grid column header 'Name' was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel1&quot;).WinFormsObject(&quot;panel5&quot;).WinFormsObject(&quot;dataGridView_main&quot;)"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="1005"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="click point y" type="I" value="993"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1599"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="982"/>
+					<Prp name="datetime" type="D" value="43552.6633603472"/>
+					<Prp name="click point x" type="I" value="1561"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel3&quot;).WinFormsObject(&quot;button_Save&quot;)"/>
+					<Prp name="object left" type="I" value="1524"/>
+					<Prp name="line #" type="I" value="146"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466946875"/>
+			<Prp name="line no" type="I" value="146"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (37, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel3&quot;).WinFormsObject(&quot;button_Save&quot;)"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7465446065"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="message" type="S" value="[CommonApplication_StartApplication] Stopping previous running instances ofvettev"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.746528044"/>
+			<Prp name="line no" type="I" value="84"/>
+			<Prp name="message" type="S" value="Starting test case ST01_CreateNewCustomer - Create a new Customer at: Thu Mar 28 2019 17:55:00 GMT+0200 (E. Europe Standard Time)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{70DA1F80-13DC-452B-A6AD-6F9AA0225D0C}"/>
+			<Prp name="unit 4" type="S" value="{7887E225-031A-4192-B4D5-C4A4AA6071C1}"/>
+			<Prp name="unit 3" type="S" value="{978F67D7-7143-4298-9FC7-F98979774868}"/>
+			<Prp name="unit 2" type="S" value="{0666498A-A8C2-4D3F-97D9-64477B216211}"/>
+			<Prp name="unit 1" type="S" value="{23F6B4DC-F8D9-4424-855A-6EE56DD3DE27}"/>
+			<Prp name="unit 5" type="S" value="{E9B59A8E-BFD8-4219-AABB-3113F8C4E203}"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7465280671"/>
+			<Prp name="line no" type="I" value="92"/>
+			<Prp name="message" type="S" value="Starting step - Step 1: Start application, select Customers tab and click on Button New"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7467307986"/>
+			<Prp name="line no" type="I" value="145"/>
+			<Prp name="message" type="S" value="[CommonObjects: CommonObjects_ButtonClick] Clicking on the button Button(&quot;Yes&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="976"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="click point y" type="I" value="672"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1518"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="89"/>
+					<Prp name="datetime" type="D" value="43552.6633764352"/>
+					<Prp name="click point x" type="I" value="29"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel1&quot;).WinFormsObject(&quot;panel5&quot;).WinFormsObject(&quot;dataGridView_main&quot;)"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="line #" type="I" value="126"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7467120023"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="message" type="S" value="The grid cell (25, 'Id') was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel1&quot;).WinFormsObject(&quot;panel5&quot;).WinFormsObject(&quot;dataGridView_main&quot;)"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466594213"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="message" type="S" value="[CommonTextControl: TextBox_Type] Typing agent.bond56@gmail.com in the text box WinFormsObject(&quot;customers_emailTextBox&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 34">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="137"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="click point y" type="I" value="125"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="194"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="114"/>
+					<Prp name="datetime" type="D" value="43552.6633978241"/>
+					<Prp name="click point x" type="I" value="156"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).Dialog(&quot;Deleting&quot;).Button(&quot;Yes&quot;)"/>
+					<Prp name="object left" type="I" value="119"/>
+					<Prp name="line #" type="I" value="146"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7467317245"/>
+			<Prp name="line no" type="I" value="146"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (37, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).Dialog(&quot;Deleting&quot;).Button(&quot;Yes&quot;)"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466932639"/>
+			<Prp name="line no" type="I" value="145"/>
+			<Prp name="message" type="S" value="[CommonObjects: CommonObjects_ButtonClick] Clicking on the button WinFormsObject(&quot;button_Save&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="362"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1635"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="342"/>
+					<Prp name="datetime" type="D" value="43552.6633518403"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_streetTextBox&quot;)"/>
+					<Prp name="object left" type="I" value="1535"/>
+					<Prp name="line #" type="I" value="33"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466878588"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'Republicii' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_streetTextBox&quot;)"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 22">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.746683125"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="message" type="S" value="[CommonTextControl: TextBox_Type] Typing Republicii in the text box WinFormsObject(&quot;customers_streetTextBox&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="362"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1635"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="342"/>
+					<Prp name="datetime" type="D" value="43552.6633500926"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_streetTextBox&quot;)"/>
+					<Prp name="object left" type="I" value="1535"/>
+					<Prp name="line #" type="I" value="32"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466842708"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'[Del]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_streetTextBox&quot;)"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="1005"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="click point y" type="I" value="993"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="89"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="982"/>
+					<Prp name="datetime" type="D" value="43552.6632525926"/>
+					<Prp name="click point x" type="I" value="51"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel1&quot;).WinFormsObject(&quot;panel4&quot;).WinFormsObject(&quot;button_New&quot;)"/>
+					<Prp name="object left" type="I" value="14"/>
+					<Prp name="line #" type="I" value="146"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7465870486"/>
+			<Prp name="line no" type="I" value="146"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (37, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel1&quot;).WinFormsObject(&quot;panel4&quot;).WinFormsObject(&quot;button_New&quot;)"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466496065"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="message" type="S" value="[CommonTextControl: TextBox_Type] Typing Bond56 in the text box WinFormsObject(&quot;customers_surnameTextBox&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 7">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7465855324"/>
+			<Prp name="line no" type="I" value="145"/>
+			<Prp name="message" type="S" value="[CommonObjects: CommonObjects_ButtonClick] Clicking on the button WinFormsObject(&quot;button_New&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="161"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1906"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="141"/>
+					<Prp name="datetime" type="D" value="43552.6633084838"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_nameTextBox&quot;)"/>
+					<Prp name="object left" type="I" value="1535"/>
+					<Prp name="line #" type="I" value="33"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466439699"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'Agent56' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_nameTextBox&quot;)"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="281"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1635"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="261"/>
+					<Prp name="datetime" type="D" value="43552.6633391088"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_cityTextBox&quot;)"/>
+					<Prp name="object left" type="I" value="1535"/>
+					<Prp name="line #" type="I" value="32"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.746673206"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'[Del]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_cityTextBox&quot;)"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="323"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1907"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="303"/>
+					<Prp name="datetime" type="D" value="43552.6633263889"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_emailTextBox&quot;)"/>
+					<Prp name="object left" type="I" value="1807"/>
+					<Prp name="line #" type="I" value="32"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7466604861"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'[Del]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;vettev&quot;).WinFormsObject(&quot;FormMain&quot;).WinFormsObject(&quot;MdiClient&quot;, &quot;&quot;).WinFormsObject(&quot;FormCustomers&quot;).WinFormsObject(&quot;panel2&quot;).WinFormsObject(&quot;panel6&quot;).WinFormsObject(&quot;tabControl_main&quot;).WinFormsObject(&quot;tabPage1&quot;).WinFormsObject(&quot;customers_emailTextBox&quot;)"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7467340741"/>
+			<Prp name="line no" type="I" value="117"/>
+			<Prp name="message" type="S" value="Number of entries in the grid 25 matches the expected row count"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.746716713"/>
+			<Prp name="line no" type="I" value="145"/>
+			<Prp name="message" type="S" value="[CommonObjects: CommonObjects_ButtonClick] Clicking on the button WinFormsObject(&quot;button_Delete&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7467340972"/>
+			<Prp name="line no" type="I" value="120"/>
+			<Prp name="message" type="S" value="Marking current test case status to Pass"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43552.7465280787"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="message" type="S" value="[CommonApplication_CheckProcessRunning] Test if process vettev is running"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>
